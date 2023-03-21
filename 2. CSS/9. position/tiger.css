@@ -1,0 +1,70 @@
+@import url('../../common.css');
+body{
+    background: rgb(108, 108, 108);
+}
+#wrapper{
+    width: 1000px;
+    height: 90%;
+    margin: 0 10%;
+}
+#wrapper header{
+    background: navy;
+    padding: 5% 10%;
+    height: 15%;
+}
+#wrapper header h1 strong{
+    color: #fff;
+    font-size: 4em;
+    font-weight: bold;
+}
+#wrapper header h1{
+    color: yellow;
+    font-size: 1.5em;
+}
+#wrapper header h1 span{
+    color: yellow;
+    font-size: 2em;
+}
+#wrapper header h1 em{
+    color: lightgray;
+    font-size: 3em;
+}
+#wrapper> .container{
+    height: 85%;
+    
+}
+ul {
+    background: lightgrey;
+    height: 100%;
+    width: 25%;
+    float: left;
+    text-indent: 3%;
+    padding: 2%;
+    line-height: 1.9em;
+}
+#wrapper> .container> .menu li a{
+    text-indent: 20px;
+    text-decoration: underline;
+}
+#wrapper> .container> .content{
+    height: 100%;
+    background: #fff;    
+    float: right;
+}
+.content p{
+    padding: 2%;
+}
+
+.content h2{
+    color: yellow;
+    background: rgb(165, 53, 53);
+    font-family: '궁서체',cursive;
+    text-indent: 3%;
+    padding: 1% 0;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+footer{
+    background: gray;
+    padding: 2%;
+}
