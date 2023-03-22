@@ -1,0 +1,147 @@
+@import url('../../common.css');
+
+body {
+    background: #777;
+    font-size: 30px;
+    line-height: 1.5;
+    color: #333;
+}
+
+#wrapper {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+header {
+    color: #fff;
+    padding: auto;
+    text-align: center;
+}
+
+header h1 {
+
+    background: orange;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+header h1 span {
+    display: block;
+    font-size: 30px;
+}
+
+.stit {
+    background: #ccc;
+    color: #222;
+    text-align: center;
+}
+
+/* side-menu */
+.container .side-menu {
+    background: #fff;
+    width: 20%;
+    float: left;
+}
+
+.side-menu h3 {
+    background: rgb(140, 23, 23);
+    color: #fff;
+    padding: 15px;
+}
+
+.side-menu ul {
+    background: #fff;
+    padding: 15px;
+}
+
+.side-menu ul li a {
+    text-decoration: underline;
+}
+
+.side-menu ul li:hover {
+    color: #202351;
+    border-bottom: 5px #222 dotted;
+}
+/* side-menu */
+
+/* main-content */
+.container .main-content {
+    background: #bbb;
+    color: #202351;
+    width: 60%;
+    line-height: 2em;
+
+    padding: 20px;
+    float: left;
+    
+}
+
+.main-content .art-piece {
+    margin: 30px 0;
+}
+
+.art-piece .title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.art-piece .artist {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.main-content .title {
+    color: #bbb;
+    background: #202351;
+}
+
+/* banner */
+.container .banner {
+    background: #fff;
+    width: 20%;
+    float: left;
+
+
+    padding: 10px;
+}
+
+.banner h3 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.all {
+    display: block;
+    color: #777;
+    text-decoration: underline;
+    position: relative;
+
+
+}
+
+.love {
+    display: block;
+    color: orange;
+    text-decoration: underline;
+
+
+}
+
+.link li a {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+
+
+footer {
+    background: rgb(17, 17, 46);
+    color: #fff;
+    text-align: center;
+}
